@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27729.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions.Contrib.SignalR", "src\AzureFunctions.Contrib.SignalR\AzureFunctions.Contrib.SignalR.csproj", "{1E795618-4E94-4E65-A5C7-81F7A37E316D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1C4FBE09-2E8F-4F56-8E21-582E5D90A947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{53F8108D-F19D-49E6-A397-84BC0A0D0DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions.Contrib.SignalR.Test", "test\AzureFunctions.Contrib.SignalR.Test\AzureFunctions.Contrib.SignalR.Test.csproj", "{61E230BD-66EB-4664-8352-099B5CE89855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRSample", "samples\SignalRSample\SignalRSample.csproj", "{F58F9F01-11D9-4C77-943C-7AD33A8EBEC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E795618-4E94-4E65-A5C7-81F7A37E316D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E795618-4E94-4E65-A5C7-81F7A37E316D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E795618-4E94-4E65-A5C7-81F7A37E316D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E795618-4E94-4E65-A5C7-81F7A37E316D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E230BD-66EB-4664-8352-099B5CE89855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E230BD-66EB-4664-8352-099B5CE89855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E230BD-66EB-4664-8352-099B5CE89855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E230BD-66EB-4664-8352-099B5CE89855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58F9F01-11D9-4C77-943C-7AD33A8EBEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58F9F01-11D9-4C77-943C-7AD33A8EBEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58F9F01-11D9-4C77-943C-7AD33A8EBEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58F9F01-11D9-4C77-943C-7AD33A8EBEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61E230BD-66EB-4664-8352-099B5CE89855} = {1C4FBE09-2E8F-4F56-8E21-582E5D90A947}
+		{F58F9F01-11D9-4C77-943C-7AD33A8EBEC5} = {53F8108D-F19D-49E6-A397-84BC0A0D0DC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F72DC6A-0087-47AD-905C-93B72D6A8A3B}
+	EndGlobalSection
+EndGlobal
